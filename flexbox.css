@@ -1,0 +1,108 @@
+.mainwrapper {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 72, 0);
+    border: 3px solid black;
+}
+.navcontainer {
+    position:sticky;
+    top:1px;    
+    background-color: rgb(0, 132, 255);
+        top: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .navcontainer ul {
+        display: flex;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .navcontainer li {
+        margin-right: 5px;
+    }
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: cyan;
+        align-content:center;
+        background-image: url('bike.jpeg'); 
+    }
+    .articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        gap: 30% 30%;
+        margin: 50px;
+        height: 150px;
+        
+    }
+    .articles2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        gap: 30% 30%;
+        margin: 50px;
+        height: 150px;
+    }
+    .articles3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        gap: 30% 30%;
+        margin: 50px;
+        height: 150px;
+    }
+
+    .newsflash {
+        flex: 1 1 100px;
+        background-color:red;
+        padding: 5px;
+        box-sizing: border-box;    
+        min-width: 0;
+        border-top: 25px darkred solid;
+        }
+        .focused {
+            width: 100;
+            height: 150px;
+            background-color: red;
+            margin: 40px;
+            padding: 10px;
+            }
+        .asides {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 5px 10px;
+                margin: 5px;
+                }
+                .note {
+                    background-color:red;
+                    border-radius: 10px;
+                    padding: 5px;
+                    width: 100%;
+                    min-width: 0;
+                    }
+                    footer {
+                        position: sticky;
+                        bottom: 0px;
+                        width: 100%;
+                        background-color:white;
+                        }
+                        footer h5 {
+                            padding-left: 5px;
+                            text-align: left;
+                        }
+            h1 {
+                color: Yellow;
+            }
+            h2 {
+                color: black;
+                text-align: center;
+                margin-top: 120px;
+            }
